@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.summary      = "A collection of iOS page-based components"
   s.homepage     = "https://github.com/ganyuchuan/PageBasedKit"
   s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.authora      = { "ganyuchuan" => "ganyuchuan@huxiu.com" }
+  s.authors      = { "ganyuchuan" => "ganyuchuan@huxiu.com" }
   s.platform     = :ios, "8.0"
   s.ios.deployment_target = "8.0"
 
