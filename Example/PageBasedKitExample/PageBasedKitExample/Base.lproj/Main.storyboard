@@ -28,7 +28,7 @@
         <scene sceneID="jgU-MR-bLQ">
             <objects>
                 <viewControllerPlaceholder storyboardName="Example1" id="5nK-gP-WRC" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="favorites" id="r9O-r9-pe5"/>
+                    <tabBarItem key="tabBarItem" id="r9O-r9-pe5"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vi6-Id-Q62" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -38,7 +38,7 @@
         <scene sceneID="LOe-JK-fLW">
             <objects>
                 <viewControllerPlaceholder storyboardName="Example2" id="dxF-ID-fY3" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="featured" id="fOZ-TM-bHb"/>
+                    <tabBarItem key="tabBarItem" id="fOZ-TM-bHb"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZpQ-G1-DmK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

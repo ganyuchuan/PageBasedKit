@@ -24,7 +24,7 @@ const PBLatticeViewCellValue PBLatticeViewCellValueNull = {
 NSArray *CreateCellValues(NSUInteger rows,
                           NSUInteger cols,
                           PBLatticeViewCellShape shapes[rows][cols],
-                          CGRect cellBounds) {
+                          CGSize size) {
     NSMutableArray *cellValues = [[NSMutableArray alloc] init];
     NSUInteger count = 0;
     
@@ -36,10 +36,10 @@ NSArray *CreateCellValues(NSUInteger rows,
             value.index = count;
             value.row = i;
             value.col = j;
-            value.frame = CGRectMake(j * cellBounds.size.width,
-                                     i * cellBounds.size.height,
-                                     cellBounds.size.width,
-                                     cellBounds.size.height);
+            value.frame = CGRectMake(j * size.width,
+                                     i * size.height,
+                                     size.width,
+                                     size.height);
             value.center = CGPointMake(CGRectGetMidX(value.frame), CGRectGetMidY(value.frame));
             
             // 封装为NSValue对象
@@ -55,9 +55,11 @@ NSArray *CreateCellValues(NSUInteger rows,
     return [cellValues copy];
 }
 
-PBLatticeView *PBLatticeViewCreate(NSUInteger rows, NSUInteger cols, PBLatticeViewCellShape shapes[rows][cols]) {
-    
-    return [[PBLatticeView alloc] initWithCellValues:CreateCellValues(rows, cols, shapes, CGRectMake(0, 0, 10.f, 10.f))];
+PBLatticeView *PBLatticeViewCreate(NSUInteger rows,
+                                   NSUInteger cols,
+                                   PBLatticeViewCellShape shapes[rows][cols],
+                                   CGSize size) {
+    return [[PBLatticeView alloc] initWithCellValues:CreateCellValues(rows, cols, shapes, size)];
 }
 
 @implementation PBLatticeView
@@ -73,8 +75,6 @@ PBLatticeView *PBLatticeViewCreate(NSUInteger rows, NSUInteger cols, PBLatticeVi
     }
     
     if (self = [super initWithFrame:frame]) {
-        // 设置每个cell容器大小
-        _cellBounds = CGRectMake(0, 0, 10.f, 10.f);
         // 设置每个cell与其容器边距
         _cellEdgeInsetDistance = CGPointMake(2.f, 2.f);
         
@@ -132,12 +132,6 @@ PBLatticeView *PBLatticeViewCreate(NSUInteger rows, NSUInteger cols, PBLatticeVi
 }
 
 #pragma mark Setter
-
-- (void)setCellBounds:(CGRect)cellBounds {
-    _cellBounds = cellBounds;
-    
-    [self setNeedsDisplay];
-}
 
 - (void)setCellEdgeInsetDistance:(CGPoint)cellEdgeInsetDistance {
     _cellEdgeInsetDistance = cellEdgeInsetDistance;

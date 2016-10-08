@@ -118,12 +118,11 @@
             {2,2},
             {2},
         };
-        _latticeView = PBLatticeViewCreate(3, 3, lattice);
+        _latticeView = PBLatticeViewCreate(3, 3, lattice, self.pointSize);
         
         _latticeView.tintColor = self.uncheckedPointColor;
         _latticeView.backgroundColor = [UIColor clearColor];
-        
-        _latticeView.cellBounds = CGRectMake(0, 0, self.pointSize.width, self.pointSize.height);
+
         _latticeView.cellEdgeInsetDistance = CGPointMake(self.pointSpacing.x / 2, self.pointSpacing.y / 2);
     }
     

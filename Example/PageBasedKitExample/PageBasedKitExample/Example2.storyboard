@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1912" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ISd-Xr-DcN">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
@@ -46,7 +45,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="size" keyPath="pointSize">
-                                        <size key="value" width="10" height="10"/>
+                                        <size key="value" width="8" height="8"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="point" keyPath="pointSpacing">
                                         <point key="value" x="2" y="2"/>
@@ -62,7 +61,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Example2" id="Gld-S1-vEV"/>
+                    <tabBarItem key="tabBarItem" title="Example2" image="dot" id="Gld-S1-vEV"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="viewControllersIndexPreIdentifier" value="ViewController"/>
@@ -287,4 +286,7 @@
             <point key="canvasLocation" x="1665" y="1257"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="dot" width="30" height="30"/>
+    </resources>
 </document>

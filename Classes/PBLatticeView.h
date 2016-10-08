@@ -28,12 +28,12 @@ UIKIT_EXTERN const PBLatticeViewCellValue PBLatticeViewCellValueNull;
 @interface PBLatticeView : UIView
 
 /*!
- *  初始化
- *
- *  @param values 一系列NSValue（封装PBLatticeViewCellValue结构体的）对象
- *
- *  @return PBLatticeView对象
- */
+*  初始化
+*
+*  @param values 一系列NSValue（封装PBLatticeViewCellValue结构体的）对象
+*
+*  @return PBLatticeView对象
+*/
 - (instancetype)initWithCellValues:(NSArray *)values;
 
 /*!
@@ -41,11 +41,7 @@ UIKIT_EXTERN const PBLatticeViewCellValue PBLatticeViewCellValueNull;
  */
 @property (nonatomic, readonly, copy) NSArray *cellValues;
 /*!
- *  cell所处的矩形范围，默认为(CGRect){0, 0, 10, 10}
- */
-@property (nonatomic) CGRect cellBounds;
-/*!
- *  cell本身离矩形范围的边距（x轴、y轴方向），默认为(CGPoint){0, 0}
+ *  cell本身离矩形范围的边距（x轴、y轴方向），默认为(CGPoint){2, 2}
  */
 @property (nonatomic) CGPoint cellEdgeInsetDistance;
 
@@ -69,7 +65,7 @@ UIKIT_EXTERN const PBLatticeViewCellValue PBLatticeViewCellValueNull;
 
 @end
 
-UIKIT_EXTERN PBLatticeView *PBLatticeViewCreate(NSUInteger rows, NSUInteger cols, PBLatticeViewCellShape shapes[rows][cols]);
+UIKIT_EXTERN PBLatticeView *PBLatticeViewCreate(NSUInteger rows, NSUInteger cols, PBLatticeViewCellShape shapes[rows][cols], CGSize size);
 
 #pragma mark -
 

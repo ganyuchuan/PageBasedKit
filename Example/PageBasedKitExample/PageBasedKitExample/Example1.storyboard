@@ -44,7 +44,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Example1" id="7zL-bC-Kg6"/>
+                    <tabBarItem key="tabBarItem" title="Example1" image="square" id="7zL-bC-Kg6"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="viewControllersIndexPreIdentifier" value="ViewController"/>
@@ -338,4 +338,7 @@
             <point key="canvasLocation" x="2897" y="614"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="square" width="30" height="30"/>
+    </resources>
 </document>
