@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--Example1-->
         <scene sceneID="s0w-BQ-VIF">
             <objects>
                 <viewController id="MnG-bs-Fzc" customClass="PBRootViewController" sceneMemberID="viewController">
@@ -44,6 +44,8 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Example1" id="7zL-bC-Kg6"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="viewControllersIndexPreIdentifier" value="ViewController"/>
                     </userDefinedRuntimeAttributes>
@@ -76,7 +78,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ViewController1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AUb-NK-YdI">
-                                <rect key="frame" x="240" y="289.5" width="120" height="21"/>
+                                <rect key="frame" x="240" y="290" width="120" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="6KB-L5-O4A"/>
                                     <constraint firstAttribute="width" constant="120" id="vlE-tf-bOW"/>
@@ -110,7 +112,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="ViewController1" text="ViewController2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cwp-B4-ytR">
-                                <rect key="frame" x="238.5" y="289" width="123" height="21"/>
+                                <rect key="frame" x="239" y="289" width="123" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="ddu-OQ-xbZ"/>
                                     <constraint firstAttribute="width" constant="123" id="iUs-rk-UdT"/>
@@ -144,7 +146,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ViewController3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wcB-c6-Cf3">
-                                <rect key="frame" x="238.5" y="289" width="123" height="21"/>
+                                <rect key="frame" x="239" y="289" width="123" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="Qou-Ji-r5q"/>
                                     <constraint firstAttribute="width" constant="123" id="Z7q-TM-P1O"/>
@@ -178,7 +180,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ViewController4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SFE-Cm-HZC">
-                                <rect key="frame" x="238.5" y="289" width="123" height="21"/>
+                                <rect key="frame" x="239" y="289" width="123" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="123" id="14Q-7C-Ct4"/>
                                     <constraint firstAttribute="height" constant="21" id="49l-38-hs5"/>
@@ -212,7 +214,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ViewController5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQN-iv-1HT">
-                                <rect key="frame" x="238.5" y="289" width="123" height="21"/>
+                                <rect key="frame" x="239" y="289" width="123" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="123" id="2JW-8O-Waj"/>
                                     <constraint firstAttribute="height" constant="21" id="Sdj-6D-c0B"/>
@@ -246,7 +248,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ViewController6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9WF-l0-bca">
-                                <rect key="frame" x="238.5" y="289" width="123" height="21"/>
+                                <rect key="frame" x="239" y="289" width="123" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="8V9-z5-5WC"/>
                                     <constraint firstAttribute="width" constant="123" id="Bzj-mo-ADO"/>
@@ -314,7 +316,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ViewController8" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jlq-QV-ib4">
-                                <rect key="frame" x="238.5" y="289" width="123" height="21"/>
+                                <rect key="frame" x="239" y="289" width="123" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="123" id="8ug-U0-W5q"/>
                                     <constraint firstAttribute="height" constant="21" id="JHW-ux-SPq"/>

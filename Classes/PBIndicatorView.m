@@ -112,6 +112,7 @@
 
 - (PBLatticeView *)latticeView {
     if (_latticeView == nil) {
+        // 定义排列形状为3x3
         PBLatticeViewCellShape lattice[3][3] = {
             {2,2,2},
             {2,2},
