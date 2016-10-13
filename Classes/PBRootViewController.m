@@ -42,6 +42,8 @@
 #pragma mark - Lifecycle
 
 - (void)awakeFromNib {
+    [super awakeFromNib];
+    
     // 通过从nib文件中读取标识控制器索引的字符串
     // 创建viewControllers
     NSMutableArray *viewControllers = [[NSMutableArray alloc] init];
@@ -98,6 +100,10 @@
         [barButtons addObject:button];
     }
     self.navigationBar.barButtons = [barButtons copy];
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
     
     // 设置当前索引
     [self setCurrentIndex:_currentIndex animated:NO];
@@ -197,14 +203,10 @@
     }
     
     // 移动navigationBar
-    if (self.navigationBar.selectedIndex != currentIndex) {
-        [self.navigationBar setSelectedIndex:currentIndex animated:animated];
-    }
+    [self.navigationBar setSelectedIndex:currentIndex animated:animated];
     
     // 标记indicatorView
-    if (self.indicatorView.checkmarkedIndex != currentIndex) {
-        [self.indicatorView checkmarkPointAtIndex:currentIndex];
-    }
+    [self.indicatorView checkmarkPointAtIndex:currentIndex];
     
     _currentIndex = currentIndex;
 }
@@ -243,7 +245,7 @@
 - (void)pageViewController:(UIPageViewController *)pageViewController didFinishAnimating:(BOOL)finished previousViewControllers:(NSArray<UIViewController *> *)previousViewControllers transitionCompleted:(BOOL)completed {
     if (completed) {
         NSUInteger index = [_viewControllers indexOfObject:pageViewController.viewControllers.firstObject];
-        [self setCurrentIndex:index animated:NO];
+        [self setCurrentIndex:index animated:YES];
     }
 }
 

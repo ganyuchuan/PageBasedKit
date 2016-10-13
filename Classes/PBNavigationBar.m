@@ -50,6 +50,7 @@
 }
 
 - (void)awakeFromNib {
+    [super awakeFromNib];
     [self setup];
 }
 
@@ -310,7 +311,6 @@
 
 - (void)transitioningWhenScrollViewDidScroll:(UIScrollView *)scrollView {
     [self updateBarButtonsStateWhenScrollViewDidScroll:scrollView];
-    [self moveBarButtonsPositionForVisibleWhenScrollViewDidScroll:scrollView];
 }
 
 @end
@@ -328,7 +328,6 @@
 
 - (void)transitioningWhenScrollViewDidScroll:(UIScrollView *)scrollView {
     [self updateBarButtonsStateWhenScrollViewDidScroll:scrollView];
-    [self moveBarButtonsPositionForCenteringWhenScrollViewDidScroll:scrollView];
 }
 
 @end

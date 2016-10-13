@@ -109,4 +109,10 @@
     }
 }
 
+- (void)setContentOffset:(CGPoint)contentOffset {
+    [super setContentOffset:contentOffset];
+    
+    NSLog(@"%@", @(contentOffset.x));
+}
+
 @end

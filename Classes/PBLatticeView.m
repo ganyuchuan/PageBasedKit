@@ -103,7 +103,7 @@ PBLatticeView *PBLatticeViewCreate(NSUInteger rows,
         return PBLatticeViewCellValueNull;
     }
     
-    PBLatticeViewCellValue value;
+    PBLatticeViewCellValue value = PBLatticeViewCellValueNull;
     for (NSValue *cellValue in self.cellValues) {
         // 获取
         PBLatticeViewCellValue tmpValue;

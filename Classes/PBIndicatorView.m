@@ -11,7 +11,7 @@
 
 #define kFadeAnimation @"FadeAnimation"
 
-@interface PBIndicatorView ()
+@interface PBIndicatorView () <CAAnimationDelegate>
 
 @property (nonatomic, strong) PBLatticeView *latticeView;
 @property (nonatomic, strong) CAShapeLayer *activePointShapeLayer;
@@ -41,6 +41,7 @@
 }
 
 - (void)awakeFromNib {
+    [super awakeFromNib];
     [self setup];
 }
 
