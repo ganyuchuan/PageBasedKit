@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13A433641DFFCC7800FA2FFB /* PBHorizontalQueueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A4335B1DFFCC7800FA2FFB /* PBHorizontalQueueView.m */; };
+		13A433651DFFCC7800FA2FFB /* PBHorizontalQueueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A4335B1DFFCC7800FA2FFB /* PBHorizontalQueueView.m */; };
+		13A433661DFFCC7800FA2FFB /* PBIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A4335D1DFFCC7800FA2FFB /* PBIndicatorView.m */; };
+		13A433671DFFCC7800FA2FFB /* PBIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A4335D1DFFCC7800FA2FFB /* PBIndicatorView.m */; };
+		13A433681DFFCC7800FA2FFB /* PBLatticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A4335F1DFFCC7800FA2FFB /* PBLatticeView.m */; };
+		13A433691DFFCC7800FA2FFB /* PBLatticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A4335F1DFFCC7800FA2FFB /* PBLatticeView.m */; };
+		13A4336A1DFFCC7800FA2FFB /* PBNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A433611DFFCC7800FA2FFB /* PBNavigationBar.m */; };
+		13A4336B1DFFCC7800FA2FFB /* PBNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A433611DFFCC7800FA2FFB /* PBNavigationBar.m */; };
+		13A4336C1DFFCC7800FA2FFB /* PBRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A433631DFFCC7800FA2FFB /* PBRootViewController.m */; };
+		13A4336D1DFFCC7800FA2FFB /* PBRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A433631DFFCC7800FA2FFB /* PBRootViewController.m */; };
 		9C49BA991D96711500FDAD99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C49BA981D96711500FDAD99 /* main.m */; };
 		9C49BA9C1D96711500FDAD99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C49BA9B1D96711500FDAD99 /* AppDelegate.m */; };
 		9C49BAA51D96711500FDAD99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C49BAA31D96711500FDAD99 /* Main.storyboard */; };
@@ -18,16 +28,6 @@
 		9C49BAC41D9672C300FDAD99 /* Example1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C49BAC21D9672C300FDAD99 /* Example1.storyboard */; };
 		9C49BAC61D9672D000FDAD99 /* Example2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C49BAC51D9672D000FDAD99 /* Example2.storyboard */; };
 		9C49BAC71D9672D000FDAD99 /* Example2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C49BAC51D9672D000FDAD99 /* Example2.storyboard */; };
-		9C49BAD41D967B0300FDAD99 /* PBHorizontalQueueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C49BACB1D967B0300FDAD99 /* PBHorizontalQueueView.m */; };
-		9C49BAD51D967B0300FDAD99 /* PBHorizontalQueueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C49BACB1D967B0300FDAD99 /* PBHorizontalQueueView.m */; };
-		9C49BAD61D967B0300FDAD99 /* PBIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C49BACD1D967B0300FDAD99 /* PBIndicatorView.m */; };
-		9C49BAD71D967B0300FDAD99 /* PBIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C49BACD1D967B0300FDAD99 /* PBIndicatorView.m */; };
-		9C49BAD81D967B0300FDAD99 /* PBLatticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C49BACF1D967B0300FDAD99 /* PBLatticeView.m */; };
-		9C49BAD91D967B0300FDAD99 /* PBLatticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C49BACF1D967B0300FDAD99 /* PBLatticeView.m */; };
-		9C49BADA1D967B0300FDAD99 /* PBNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C49BAD11D967B0300FDAD99 /* PBNavigationBar.m */; };
-		9C49BADB1D967B0300FDAD99 /* PBNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C49BAD11D967B0300FDAD99 /* PBNavigationBar.m */; };
-		9C49BADC1D967B0300FDAD99 /* PBRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C49BAD31D967B0300FDAD99 /* PBRootViewController.m */; };
-		9C49BADD1D967B0300FDAD99 /* PBRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C49BAD31D967B0300FDAD99 /* PBRootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +41,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13A4335A1DFFCC7800FA2FFB /* PBHorizontalQueueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBHorizontalQueueView.h; sourceTree = "<group>"; };
+		13A4335B1DFFCC7800FA2FFB /* PBHorizontalQueueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBHorizontalQueueView.m; sourceTree = "<group>"; };
+		13A4335C1DFFCC7800FA2FFB /* PBIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBIndicatorView.h; sourceTree = "<group>"; };
+		13A4335D1DFFCC7800FA2FFB /* PBIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBIndicatorView.m; sourceTree = "<group>"; };
+		13A4335E1DFFCC7800FA2FFB /* PBLatticeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBLatticeView.h; sourceTree = "<group>"; };
+		13A4335F1DFFCC7800FA2FFB /* PBLatticeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBLatticeView.m; sourceTree = "<group>"; };
+		13A433601DFFCC7800FA2FFB /* PBNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBNavigationBar.h; sourceTree = "<group>"; };
+		13A433611DFFCC7800FA2FFB /* PBNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBNavigationBar.m; sourceTree = "<group>"; };
+		13A433621DFFCC7800FA2FFB /* PBRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBRootViewController.h; sourceTree = "<group>"; };
+		13A433631DFFCC7800FA2FFB /* PBRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBRootViewController.m; sourceTree = "<group>"; };
 		9C49BA941D96711500FDAD99 /* PageBasedKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageBasedKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C49BA981D96711500FDAD99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9C49BA9A1D96711500FDAD99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,19 +62,9 @@
 		9C49BAB01D96711500FDAD99 /* PageBasedKitExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageBasedKitExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C49BAB41D96711500FDAD99 /* PageBasedKitExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageBasedKitExampleUITests.m; sourceTree = "<group>"; };
 		9C49BAB61D96711500FDAD99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9C49BABF1D9671BA00FDAD99 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Classes; path = /Users/huxiu/Desktop/PageBasedKit/Classes; sourceTree = "<absolute>"; };
+		9C49BABF1D9671BA00FDAD99 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Classes; path = ../../Classes; sourceTree = "<group>"; };
 		9C49BAC21D9672C300FDAD99 /* Example1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Example1.storyboard; sourceTree = "<group>"; };
 		9C49BAC51D9672D000FDAD99 /* Example2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Example2.storyboard; sourceTree = "<group>"; };
-		9C49BACA1D967B0300FDAD99 /* PBHorizontalQueueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBHorizontalQueueView.h; sourceTree = "<group>"; };
-		9C49BACB1D967B0300FDAD99 /* PBHorizontalQueueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBHorizontalQueueView.m; sourceTree = "<group>"; };
-		9C49BACC1D967B0300FDAD99 /* PBIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBIndicatorView.h; sourceTree = "<group>"; };
-		9C49BACD1D967B0300FDAD99 /* PBIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBIndicatorView.m; sourceTree = "<group>"; };
-		9C49BACE1D967B0300FDAD99 /* PBLatticeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBLatticeView.h; sourceTree = "<group>"; };
-		9C49BACF1D967B0300FDAD99 /* PBLatticeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBLatticeView.m; sourceTree = "<group>"; };
-		9C49BAD01D967B0300FDAD99 /* PBNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBNavigationBar.h; sourceTree = "<group>"; };
-		9C49BAD11D967B0300FDAD99 /* PBNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBNavigationBar.m; sourceTree = "<group>"; };
-		9C49BAD21D967B0300FDAD99 /* PBRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBRootViewController.h; sourceTree = "<group>"; };
-		9C49BAD31D967B0300FDAD99 /* PBRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBRootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +85,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13A433591DFFCC7800FA2FFB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				13A4335A1DFFCC7800FA2FFB /* PBHorizontalQueueView.h */,
+				13A4335B1DFFCC7800FA2FFB /* PBHorizontalQueueView.m */,
+				13A4335C1DFFCC7800FA2FFB /* PBIndicatorView.h */,
+				13A4335D1DFFCC7800FA2FFB /* PBIndicatorView.m */,
+				13A4335E1DFFCC7800FA2FFB /* PBLatticeView.h */,
+				13A4335F1DFFCC7800FA2FFB /* PBLatticeView.m */,
+				13A433601DFFCC7800FA2FFB /* PBNavigationBar.h */,
+				13A433611DFFCC7800FA2FFB /* PBNavigationBar.m */,
+				13A433621DFFCC7800FA2FFB /* PBRootViewController.h */,
+				13A433631DFFCC7800FA2FFB /* PBRootViewController.m */,
+			);
+			name = Classes;
+			path = ../../Classes;
+			sourceTree = "<group>";
+		};
 		9C49BA8B1D96711500FDAD99 = {
 			isa = PBXGroup;
 			children = (
-				9C49BAC91D967B0300FDAD99 /* Classes */,
+				13A433591DFFCC7800FA2FFB /* Classes */,
 				9C49BA961D96711500FDAD99 /* PageBasedKitExample */,
 				9C49BAB31D96711500FDAD99 /* PageBasedKitExampleUITests */,
 				9C49BA951D96711500FDAD99 /* Products */,
@@ -135,24 +153,6 @@
 				9C49BAB61D96711500FDAD99 /* Info.plist */,
 			);
 			path = PageBasedKitExampleUITests;
-			sourceTree = "<group>";
-		};
-		9C49BAC91D967B0300FDAD99 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				9C49BACA1D967B0300FDAD99 /* PBHorizontalQueueView.h */,
-				9C49BACB1D967B0300FDAD99 /* PBHorizontalQueueView.m */,
-				9C49BACC1D967B0300FDAD99 /* PBIndicatorView.h */,
-				9C49BACD1D967B0300FDAD99 /* PBIndicatorView.m */,
-				9C49BACE1D967B0300FDAD99 /* PBLatticeView.h */,
-				9C49BACF1D967B0300FDAD99 /* PBLatticeView.m */,
-				9C49BAD01D967B0300FDAD99 /* PBNavigationBar.h */,
-				9C49BAD11D967B0300FDAD99 /* PBNavigationBar.m */,
-				9C49BAD21D967B0300FDAD99 /* PBRootViewController.h */,
-				9C49BAD31D967B0300FDAD99 /* PBRootViewController.m */,
-			);
-			name = Classes;
-			path = ../../Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,12 +260,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C49BADC1D967B0300FDAD99 /* PBRootViewController.m in Sources */,
+				13A4336C1DFFCC7800FA2FFB /* PBRootViewController.m in Sources */,
 				9C49BA9C1D96711500FDAD99 /* AppDelegate.m in Sources */,
-				9C49BADA1D967B0300FDAD99 /* PBNavigationBar.m in Sources */,
-				9C49BAD41D967B0300FDAD99 /* PBHorizontalQueueView.m in Sources */,
-				9C49BAD81D967B0300FDAD99 /* PBLatticeView.m in Sources */,
-				9C49BAD61D967B0300FDAD99 /* PBIndicatorView.m in Sources */,
+				13A4336A1DFFCC7800FA2FFB /* PBNavigationBar.m in Sources */,
+				13A433641DFFCC7800FA2FFB /* PBHorizontalQueueView.m in Sources */,
+				13A433681DFFCC7800FA2FFB /* PBLatticeView.m in Sources */,
+				13A433661DFFCC7800FA2FFB /* PBIndicatorView.m in Sources */,
 				9C49BA991D96711500FDAD99 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,11 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C49BAD71D967B0300FDAD99 /* PBIndicatorView.m in Sources */,
-				9C49BAD91D967B0300FDAD99 /* PBLatticeView.m in Sources */,
-				9C49BADD1D967B0300FDAD99 /* PBRootViewController.m in Sources */,
-				9C49BAD51D967B0300FDAD99 /* PBHorizontalQueueView.m in Sources */,
-				9C49BADB1D967B0300FDAD99 /* PBNavigationBar.m in Sources */,
+				13A433671DFFCC7800FA2FFB /* PBIndicatorView.m in Sources */,
+				13A433691DFFCC7800FA2FFB /* PBLatticeView.m in Sources */,
+				13A4336D1DFFCC7800FA2FFB /* PBRootViewController.m in Sources */,
+				13A433651DFFCC7800FA2FFB /* PBHorizontalQueueView.m in Sources */,
+				13A4336B1DFFCC7800FA2FFB /* PBNavigationBar.m in Sources */,
 				9C49BAB51D96711500FDAD99 /* PageBasedKitExampleUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
